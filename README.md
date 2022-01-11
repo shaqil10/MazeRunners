@@ -1,5 +1,7 @@
-# team10
-This commit is our submission for M4.
+### MAZE RUNNERS
+A maze escape game based on the Greek myth of the minotaur trapped in the labyrinth by Daedalus who is portrayed as the main enemy in the story progression. The game features a procedural maze-generation algorithm
+that produces a random unique maze every level and varies in size as the game progresses. The player must collect an increasing number of keys as the levels progress in order to exit the maze while avoiding drone and spike
+enemies that roam around the maze. Thankfully, the minotaur has access to special items like a teleporter, wall-breaker, and speed boost in order to navigate the maze faster and avoid enemies. You only have three lives, so be careful!
 
 ### Notes
 
