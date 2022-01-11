@@ -3,10 +3,6 @@ A maze escape game based on the Greek myth of the minotaur trapped in the labyri
 that produces a random unique maze every level and varies in size as the game progresses. The player must collect an increasing number of keys as the levels progress in order to exit the maze while avoiding drone and spike
 enemies that roam around the maze. Thankfully, the minotaur has access to special items like a teleporter, wall-breaker, and speed boost in order to navigate the maze faster and avoid enemies. You only have three lives, so be careful!
 
-### Notes
-
-- The game doesn't compile on Linux. Since we're using Mac and Windows only we didn't know it was a requirement to compile on Linux. Since the M3 feedback took a long time to reach us, we didn't have time to fix it even though we tried.
-
 ### Graphic assets
 * wall.png: <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 * enemy.png: <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
