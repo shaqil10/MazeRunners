@@ -1,0 +1,1811 @@
+game_state:
+  level_id: main
+  win_condition: false
+  level_phase: 4
+  level_has_next: false
+  level_map:
+    -
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+    -
+      - 2
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 2
+    -
+      - 2
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 2
+    -
+      - 3
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 4
+    -
+      - 2
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 2
+    -
+      - 2
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 1
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 2
+    -
+      - 2
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      - 2
+    -
+      - 2
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+    -
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+world:
+  player_position:
+    - 8
+    - 5
+  entities:
+    - motion:
+        position:
+          - 1000
+          - 1000
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 6000
+          - 6000
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 18
+      geometry_type: 1
+    - motion:
+        position:
+          - -35.165657
+          - 501.980896
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 200
+          - 200
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 28
+      geometry_type: 1
+    - motion:
+        position:
+          - 421.611298
+          - 500.660553
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 500
+          - 500
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 27
+      geometry_type: 1
+    - motion:
+        position:
+          - 2608.05835
+          - 1003.30011
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 4000
+          - 4000
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 19
+      geometry_type: 1
+    - motion:
+        position:
+          - 2843.22534
+          - 501.320709
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 4000
+          - 4000
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 19
+      geometry_type: 1
+    - motion:
+        position:
+          - 1108.05786
+          - 1003.30011
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 4000
+          - 4000
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 19
+      geometry_type: 1
+    - motion:
+        position:
+          - 1343.2229
+          - 501.320709
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 4000
+          - 4000
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 19
+      geometry_type: 1
+    - motion:
+        position:
+          - 108.057419
+          - 1003.30011
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 4000
+          - 4000
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 19
+      geometry_type: 1
+    - motion:
+        position:
+          - 343.222687
+          - 501.320709
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 4000
+          - 4000
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 19
+      geometry_type: 1
+    - motion:
+        position:
+          - 802.578613
+          - 549.86792
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 400
+          - 200
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 21
+      geometry_type: 1
+    - motion:
+        position:
+          - 952.578613
+          - 594.005859
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 50
+          - 50
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 22
+      geometry_type: 1
+    - motion:
+        position:
+          - 0
+          - 0
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 0
+          - 0
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 11
+      geometry_type: 1
+    - motion:
+        position:
+          - 0
+          - 0
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 0
+          - 0
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 10
+      geometry_type: 1
+    - motion:
+        position:
+          - 652.578613
+          - 594.005859
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 50
+          - 50
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 8
+      geometry_type: 1
+    - motion:
+        position:
+          - 872.383057
+          - 488.988586
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 0
+          - 0
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 26
+      geometry_type: 1
+    - motion:
+        position:
+          - 852.578613
+          - 594.005859
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 50
+          - 50
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 25
+      geometry_type: 1
+    - motion:
+        position:
+          - 752.578613
+          - 594.005859
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 50
+          - 50
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 24
+      geometry_type: 1
+    - motion:
+        position:
+          - 572.383057
+          - 344.232117
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 0
+          - 0
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 23
+      geometry_type: 1
+    - motion:
+        position:
+          - 902.578613
+          - 506.231567
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 0
+          - 0
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 20
+      geometry_type: 1
+    - motion:
+        position:
+          - 802.578613
+          - 506.231567
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 50
+          - 50
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 20
+      geometry_type: 1
+    - motion:
+        position:
+          - 702.578613
+          - 506.231567
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 50
+          - 50
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 20
+      geometry_type: 1
+    - motion:
+        position:
+          - 0
+          - 0
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 0
+          - 0
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 17
+      geometry_type: 1
+    - motion:
+        position:
+          - 0
+          - 0
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 0
+          - 0
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 16
+      geometry_type: 1
+    - motion:
+        position:
+          - 0
+          - 0
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 0
+          - 0
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 12
+      geometry_type: 1
+    - motion:
+        position:
+          - 0
+          - 0
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 0
+          - 0
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 15
+      geometry_type: 1
+    - motion:
+        position:
+          - -225
+          - 1355
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 0
+          - 0
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 14
+      geometry_type: 1
+    - motion:
+        position:
+          - 0
+          - 0
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 0
+          - 0
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 13
+      geometry_type: 1
+    - motion:
+        position:
+          - 3225
+          - 2325
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 40
+          - 40
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 10
+      geometry_type: 1
+      item_type: teleporter
+    - motion:
+        position:
+          - 1575
+          - 225
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 40
+          - 40
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 10
+      geometry_type: 1
+      item_type: teleporter
+    - motion:
+        position:
+          - 1425
+          - 225
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 40
+          - 40
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 10
+      geometry_type: 1
+      item_type: teleporter
+    - motion:
+        position:
+          - 2325
+          - 1275
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 40
+          - 40
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 10
+      geometry_type: 1
+      item_type: teleporter
+    - motion:
+        position:
+          - 1725
+          - 1125
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 40
+          - 40
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 10
+      geometry_type: 1
+      item_type: teleporter
+    - motion:
+        position:
+          - 2925
+          - 2925
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 40
+          - 40
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 10
+      geometry_type: 1
+      item_type: teleporter
+    - motion:
+        position:
+          - 1000
+          - 3000
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 6000
+          - 6000
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 18
+      geometry_type: 1
+    - motion:
+        position:
+          - 1725
+          - 2325
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 80
+          - 80
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 22
+      geometry_type: 1
+      item_type: key
+    - motion:
+        position:
+          - 3375
+          - 3525
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 80
+          - 80
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 22
+      geometry_type: 1
+      item_type: key
+    - motion:
+        position:
+          - 375
+          - 2925
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 80
+          - 80
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 22
+      geometry_type: 1
+      item_type: key
+    - motion:
+        position:
+          - 1275
+          - 2325
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 80
+          - 80
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 22
+      geometry_type: 1
+      item_type: key
+    - motion:
+        position:
+          - 525
+          - 2475
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 80
+          - 80
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 22
+      geometry_type: 1
+      item_type: key
+    - motion:
+        position:
+          - 3525
+          - 1125
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 40
+          - 40
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 8
+      geometry_type: 1
+      item_type: wall breaker
+    - motion:
+        position:
+          - 1725
+          - 975
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 40
+          - 40
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 8
+      geometry_type: 1
+      item_type: wall breaker
+    - motion:
+        position:
+          - 3000
+          - 1000
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 6000
+          - 6000
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 18
+      geometry_type: 1
+    - motion:
+        position:
+          - 2025
+          - 3225
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 40
+          - 40
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 8
+      geometry_type: 1
+      item_type: wall breaker
+    - motion:
+        position:
+          - 825
+          - 3075
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 40
+          - 40
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 8
+      geometry_type: 1
+      item_type: wall breaker
+    - motion:
+        position:
+          - 1575
+          - 2325
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 40
+          - 40
+        mass: 50
+        coeff_rest: 0.800000012
+        can_collide: true
+      texture_type: 8
+      geometry_type: 1
+      item_type: wall breaker
+    - motion:
+        position:
+          - 2264.68652
+          - 674.9151
+        angle: 0
+        velocity:
+          - 0
+          - -600
+        scale:
+          - 20
+          - 20
+        mass: 50
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 7
+      geometry_type: 1
+    - motion:
+        position:
+          - 3000
+          - 3000
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 6000
+          - 6000
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 18
+      geometry_type: 1
+    - motion:
+        position:
+          - 5000
+          - 3000
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 6000
+          - 6000
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 18
+      geometry_type: 1
+    - motion:
+        position:
+          - 755.231628
+          - 1675.9762
+        angle: 0
+        velocity:
+          - 0
+          - 600
+        scale:
+          - 20
+          - 20
+        mass: 50
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 7
+      geometry_type: 1
+    - motion:
+        position:
+          - 1794.79858
+          - 1365.10681
+        angle: 0
+        velocity:
+          - 0
+          - -600
+        scale:
+          - 20
+          - 20
+        mass: 50
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 7
+      geometry_type: 1
+    - motion:
+        position:
+          - 284.433563
+          - 1194.88647
+        angle: 0
+        velocity:
+          - 600
+          - 0
+        scale:
+          - 20
+          - 20
+        mass: 50
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 7
+      geometry_type: 1
+    - motion:
+        position:
+          - 294.805359
+          - 3465.01196
+        angle: 0
+        velocity:
+          - 0
+          - -600
+        scale:
+          - 20
+          - 20
+        mass: 50
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 7
+      geometry_type: 1
+    - motion:
+        position:
+          - 2265.10693
+          - 2394.79883
+        angle: 0
+        velocity:
+          - -600
+          - 0
+        scale:
+          - 20
+          - 20
+        mass: 50
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 7
+      geometry_type: 1
+    - motion:
+        position:
+          - 1964.86963
+          - 3295.02124
+        angle: 0
+        velocity:
+          - -600
+          - 0
+        scale:
+          - 20
+          - 20
+        mass: 50
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 7
+      geometry_type: 1
+    - motion:
+        position:
+          - 764.884766
+          - 2485.59839
+        angle: 0
+        velocity:
+          - 0
+          - 600
+        scale:
+          - 20
+          - 20
+        mass: 50
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 7
+      geometry_type: 1
+    - motion:
+        position:
+          - 584.413635
+          - 1654.5105
+        angle: 0
+        velocity:
+          - 600
+          - 0
+        scale:
+          - 20
+          - 20
+        mass: 50
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 7
+      geometry_type: 1
+    - motion:
+        position:
+          - 2995.02124
+          - 1664.86963
+        angle: 0
+        velocity:
+          - 0
+          - -600
+        scale:
+          - 20
+          - 20
+        mass: 50
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 7
+      geometry_type: 1
+    - motion:
+        position:
+          - 1273.25171
+          - 225
+        angle: 0
+        velocity:
+          - -100
+          - 0
+        scale:
+          - 42.2743988
+          - -45.2103996
+        mass: 200
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 5
+      geometry_type: 7
+    - motion:
+        position:
+          - 2323.25342
+          - 225
+        angle: 0
+        velocity:
+          - -100
+          - 0
+        scale:
+          - 42.2743988
+          - -45.2103996
+        mass: 200
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 5
+      geometry_type: 7
+    - motion:
+        position:
+          - 2898.36426
+          - 3249.88916
+        angle: 0
+        velocity:
+          - -100
+          - 0
+        scale:
+          - 42.2743988
+          - -45.2103996
+        mass: 200
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 5
+      geometry_type: 7
+    - motion:
+        position:
+          - 949.855774
+          - 2948.39771
+        angle: 0
+        velocity:
+          - -100
+          - 0
+        scale:
+          - 42.2743988
+          - -45.2103996
+        mass: 200
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 5
+      geometry_type: 7
+    - motion:
+        position:
+          - 1849.83203
+          - 2348.42163
+        angle: 0
+        velocity:
+          - -100
+          - 0
+        scale:
+          - 42.2743988
+          - -45.2103996
+        mass: 200
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 5
+      geometry_type: 7
+    - motion:
+        position:
+          - 1349.17627
+          - 261.884338
+        angle: 0
+        velocity:
+          - 100
+          - 0
+        scale:
+          - 42.2743988
+          - -45.2103996
+        mass: 200
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 5
+      geometry_type: 7
+    - motion:
+        position:
+          - 849.982056
+          - 2851.55103
+        angle: 0
+        velocity:
+          - 0
+          - -100
+        scale:
+          - 42.2743988
+          - -45.2103996
+        mass: 200
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 5
+      geometry_type: 7
+    - motion:
+        position:
+          - 3525
+          - 2476.74805
+        angle: 0
+        velocity:
+          - 0
+          - 100
+        scale:
+          - 42.2743988
+          - -45.2103996
+        mass: 200
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 5
+      geometry_type: 7
+    - motion:
+        position:
+          - 224.504196
+          - 1838.69495
+        angle: 0
+        velocity:
+          - 0
+          - 100
+        scale:
+          - 42.2743988
+          - -45.2103996
+        mass: 200
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 5
+      geometry_type: 7
+    - motion:
+        position:
+          - 5000
+          - 1000
+        angle: 0
+        velocity:
+          - 0
+          - 0
+        scale:
+          - 6000
+          - 6000
+        mass: 0
+        coeff_rest: 0
+        can_collide: false
+      texture_type: 18
+      geometry_type: 1
+    - motion:
+        position:
+          - 2024.12219
+          - 525
+        angle: 0
+        velocity:
+          - -50
+          - 0
+        scale:
+          - 45.9804001
+          - -51.1128006
+        mass: 200
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 4
+      geometry_type: 6
+    - motion:
+        position:
+          - 2324.12183
+          - 3225
+        angle: 0
+        velocity:
+          - -50
+          - 0
+        scale:
+          - 45.9804001
+          - -51.1128006
+        mass: 200
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 4
+      geometry_type: 6
+    - motion:
+        position:
+          - 674.126221
+          - 3525
+        angle: 0
+        velocity:
+          - -50
+          - 0
+        scale:
+          - 45.9804001
+          - -51.1128006
+        mass: 200
+        coeff_rest: 0.899999976
+        can_collide: true
+      texture_type: 4
+      geometry_type: 6
+  death_count: 0
+  num_times_exit_reached: 3
+  rtx_on: true
+  inventory:
+    1: 1
+    2: 0
+    3: 0
+    4: 1
+  most_recent_collected_item:
+    name: key
+    duration_ms: 0
+  game_time_ms: 23817.719997406006
+  player_health: 2
+  required_num_of_keys: 5
