@@ -34,5 +34,6 @@
 !ext/
 !template/ext/
 
+data/leaderboard.yaml
 leaderboard.yaml
 savegame.yaml
