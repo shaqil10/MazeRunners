@@ -5,6 +5,14 @@ A maze escape game based on the Greek myth of the minotaur trapped in the labyri
 After cloning the repository, if you have CMAKE installed, it should automatically build the game based on your local file directory, open up main.cpp and
 run the game. The main menu should appear; the tutorial will teach you the fundamentals of the game, and then once you have completed that, choose START GAME to begin playing the full game! The OPTIONS button is more of a development tool where a few pre-built maps can be chosen to play from. You can also load a saved game from a previous play.
 
+### Game Screenshots
+Intro Story
+![MazeRunner Intro](https://user-images.githubusercontent.com/58369573/155863892-43b5134b-58b3-425b-8358-aad821c86c99.PNG)
+Tutorial
+![MazeRunners tutorial](https://user-images.githubusercontent.com/58369573/155863993-79753890-98df-4fc2-9018-519d4c6145df.PNG)
+In-Game
+![Maze Runners in-game pic](https://user-images.githubusercontent.com/58369573/155863897-c5c0945c-2336-4fba-8aed-83d8035ee244.PNG)
+
 ### Graphic assets
 * wall.png: <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 * enemy.png: <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
@@ -32,13 +40,6 @@ run the game. The main menu should appear; the tutorial will teach you the funda
 * drone_stupid_boy.wav | drone_were_it_only_so_easy.wav : made with - Voice changer: https://voicechanger.io/ || Audio editor: https://twistedwave.com/online
 * Other sound effects from <a href="https://pixabay.com/music/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=6185">Pixabay</a>
 
-### Game Screenshots
-Intro Story
-![MazeRunner Intro](https://user-images.githubusercontent.com/58369573/155863892-43b5134b-58b3-425b-8358-aad821c86c99.PNG)
-Tutorial
-![MazeRunners tutorial](https://user-images.githubusercontent.com/58369573/155863993-79753890-98df-4fc2-9018-519d4c6145df.PNG)
-In-Game
-![Maze Runners in-game pic](https://user-images.githubusercontent.com/58369573/155863897-c5c0945c-2336-4fba-8aed-83d8035ee244.PNG)
 
 
 
