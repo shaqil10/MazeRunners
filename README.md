@@ -5,7 +5,7 @@ A maze escape game based on the Greek myth of the minotaur trapped in the labyri
 After cloning the repository, if you have CMAKE installed, it should automatically build the game based on your local file directory, open up main.cpp and
 run the game. The main menu should appear; the tutorial will teach you the fundamentals of the game, and then once you have completed that, choose START GAME to begin playing the full game! The OPTIONS button is more of a development tool where a few pre-built maps can be chosen to play from. You can also load a saved game from a previous play.
 
-### Game Screenshots
+### GAME SCREENSHOTS
 Intro Story
 ![MazeRunner Intro](https://user-images.githubusercontent.com/58369573/155863892-43b5134b-58b3-425b-8358-aad821c86c99.PNG)
 Tutorial
@@ -13,7 +13,7 @@ Tutorial
 In-Game
 ![Maze Runners in-game pic](https://user-images.githubusercontent.com/58369573/155863897-c5c0945c-2336-4fba-8aed-83d8035ee244.PNG)
 
-### Graphic assets
+### GRAPHIC ASSETS
 * wall.png: <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 * enemy.png: <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 * drone.png:  <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
@@ -24,15 +24,15 @@ In-Game
 * cutscene_minotaur_rtx_off.png | cutscene_drone_rtx_off.png: Andrew Tsai
 * xxx_normal_map.png generated from https://cpetry.github.io/NormalMap-Online/
 
-### Fonts
+### FONTS
 * all: https://www.fontsquirrel.com/fonts/list/popular
 
-### Libraries
+### LIBRARIES
 * FreeType: https://sourceforge.net/projects/freetype/
 * EnTT: https://github.com/skypjack/entt
 * 
 
-### Audio
+### AUDIO
 * Music by <a href="/users/juliush-3921568/?tab=audio&amp;utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=audio&amp;utm_content=4238">JuliusH</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=4238">Pixabay</a>
 * Death sound: http://freesoundeffect.net/sound/mythical-beast-minotaur-sound-effect
 * Power up sound: https://www.fesliyanstudios.com/royalty-free-sound-effects-download/spells-and-power-ups-217
