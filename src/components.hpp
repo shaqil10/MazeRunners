@@ -84,6 +84,7 @@ struct LoadedLevel
 // Global Game State
 struct GameState
 {
+	// Initial GameState: main, tutorial, testing1, testing2, huge, large1 (check folder names in data/levels)
 	std::string level_id = "main";
 	std::string prev_level = "";
 	LoadedLevel level;

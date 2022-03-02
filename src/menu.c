@@ -123,6 +123,11 @@ void drawMainMenu( GLFWwindow* win, int *out)
             fprintf(stdout, "Starting Game\n");
             *out = 1;
         }
+		if (nk_button_label(ctx, "TUTORIAL")) {
+			fprintf(stdout, "Starting Tutorial\n");
+			set_level("tutorial");
+			*out = 1;
+		}
         nk_layout_row_dynamic(ctx, 50 * scale_x, 1);
         if (nk_button_label(ctx, "LOAD GAME")) {
             fprintf(stdout, "Load game selected\n");
@@ -457,20 +462,20 @@ void drawCutscene(GLFWwindow* win, int* out)
 		// Tutorial start
 		else if (*out == 200) {
 			min_cutscene_selection = 200, max_cutscene_selection = 202;
-			nk_label(ctx, "I will suffer imprisonment no longer. Time to stretch these legs", NK_TEXT_ALIGN_LEFT);
-			nk_label(ctx, "(by pressing [w/a/s/d] or clicking on an empty tile).", NK_TEXT_ALIGN_LEFT);
-			nk_label(ctx, "", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "I will suffer imprisonment no longer. Time to stretch these legs!", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "I can move using the WASD keys, the arrow keys,", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "or by clicking on an empty tile.", NK_TEXT_ALIGN_LEFT);
 		}
 		else if (*out == 201) {
 			min_cutscene_selection = 200, max_cutscene_selection = 202;
 			nk_label(ctx, "What's this, a gifted hammer?", NK_TEXT_ALIGN_LEFT);
-			nk_label(ctx, "If I pick it up, I can use it (by pressing [1]) on a wall (by clicking it)...", NK_TEXT_ALIGN_LEFT);
-			nk_label(ctx, "", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "If I pick it up, I can activate it by pressing [1], and then", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "clicking the wall that I want to destroy before the time expires.", NK_TEXT_ALIGN_LEFT);
 		}
 		else if (*out == 202) {
 			min_cutscene_selection = 200, max_cutscene_selection = 202;
-			nk_label(ctx, "Looks fragile, I think it only has 20 seconds before I can use it.", NK_TEXT_ALIGN_LEFT);
-			nk_label(ctx, "And it looks like I can only use it once unless if I pick up another.", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "Looks fragile, I think it only lasts 20 seconds before I can use it.", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "And it looks like I can only use it once unless I pick up another.", NK_TEXT_ALIGN_LEFT);
 			nk_label(ctx, "I don't think it's strong enough to break the outer walls.", NK_TEXT_ALIGN_LEFT);
 		}
 		else if (*out == 203) {
@@ -489,8 +494,8 @@ void drawCutscene(GLFWwindow* win, int* out)
 		else if (*out == 206) {
 			min_cutscene_selection = 205, max_cutscene_selection = 206;
 			nk_label(ctx, "Another item over there. Looks like it'll speed me up.", NK_TEXT_ALIGN_LEFT);
-			nk_label(ctx, "I wonder how long it'll last for after activating it", NK_TEXT_ALIGN_LEFT);
-			nk_label(ctx, "(by pressing [3]). Maybe 5 seconds?", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "I wonder how long it'll last for after activating it.", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "Let's press [3] and find out. Maybe 5 seconds?", NK_TEXT_ALIGN_LEFT);
 		}
 		// Note floor disappearing
 		else if (*out == 210) {
@@ -516,13 +521,13 @@ void drawCutscene(GLFWwindow* win, int* out)
 		else if (*out == 217) {
 			min_cutscene_selection = 216, max_cutscene_selection = 217;
 			nk_label(ctx, "I'll test my drones. If you get too close, they'll chase you", NK_TEXT_ALIGN_LEFT);
-			nk_label(ctx, "If you destroy them, they'll deform as the souls are set free", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "If you destroy them, they'll deform as their souls are set free", NK_TEXT_ALIGN_LEFT);
 			nk_label(ctx, "They can still hit you, but you won't lose any life.", NK_TEXT_ALIGN_LEFT);
 		}
 		// Attack cutscene: Speaker: Minotaur
 		else if (*out == 220) {
 			min_cutscene_selection = 220, max_cutscene_selection = 221;
-			nk_label(ctx, "I can defend myself (by pressing [spacebar])", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "I can defend myself by pressing spacebar.", NK_TEXT_ALIGN_LEFT);
 			nk_label(ctx, "Looks like these drones aren't very smart.", NK_TEXT_ALIGN_LEFT);
 			nk_label(ctx, "If they hit the wall, they'll probably stop moving.", NK_TEXT_ALIGN_LEFT);
 		}
@@ -541,7 +546,7 @@ void drawCutscene(GLFWwindow* win, int* out)
 		}
 		else if (*out == 226) {
 			min_cutscene_selection = 225, max_cutscene_selection = 227;
-			nk_label(ctx, "I'll need the key to escape. I can use the teleporter (by pressing [2]).", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "I'll need the key to escape. I can use the teleporter by pressing [2].", NK_TEXT_ALIGN_LEFT);
 			nk_label(ctx, "It looks unstable though - no wonder he threw them away.", NK_TEXT_ALIGN_LEFT);
 			nk_label(ctx, "I don't think I can control where it teleports me...", NK_TEXT_ALIGN_LEFT);
 		}
@@ -554,8 +559,8 @@ void drawCutscene(GLFWwindow* win, int* out)
 		// Note teleporter arrival: Speaker: Minotaur
 		else if (*out == 230) {
 			min_cutscene_selection = 230, max_cutscene_selection = 230;
-			nk_label(ctx, "That was lucky. Good think there's a key here.", NK_TEXT_ALIGN_LEFT);
-			nk_label(ctx, "Certain mazes will need a certain number of kesy to escape.", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "Phew, that was lucky. Good thing there's a key here.", NK_TEXT_ALIGN_LEFT);
+			nk_label(ctx, "Different mazes will require a certain number of keys to escape.", NK_TEXT_ALIGN_LEFT);
 			nk_label(ctx, "Now, time to get out of this labyrinth.", NK_TEXT_ALIGN_LEFT);
 		}
 		// Note teleporter arrival: Speaker: Minotaur

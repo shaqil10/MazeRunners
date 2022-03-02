@@ -1927,6 +1927,7 @@ void WorldSystem::do_tutorial(float elapsed_ms_since_last_update) {
 		cutscene_selection = 200;
 		cutscene_1_frame_0 = true;
 	}
+	// TODO: After this, should have arrow pointing to breakable wall
 
 	// Cutscene: Note enemy movement
 	vec2 movement_and_speed_trigger_pos = { 5,3 };
